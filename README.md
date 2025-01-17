@@ -15,7 +15,6 @@
 - [monaco-react](https://github.com/suren-atoyan/monaco-react) - Monaco Editor for React
 - [fluent ui](https://github.com/microsoft/fluentui) - A react component library developed by Microsoft
 - [dirty-json](https://github.com/RyanMarcus/dirty-json) - A JSON parser that tries to handle non-conforming or otherwise invalid JSON
-- [Ajv](https://github.com/ajv-validator/ajv) - A fastest JSON validator for Node.js and browser
 - [vite](https://vitejs.dev) and [vercel](https://vercel.com)
 
 ## Demo
@@ -31,8 +30,6 @@ Git clone this repo and run `yarn && yarn start`.
 ### Testing
 
 As the initialization process is supposed to load some scripts from CDN, there is a problem with Jest (and other testing tools). It only shows "Loading..." and never gets the editor working in the test.
-
-See : https://github.com/suren-atoyan/monaco-react/issues/88
 
 ## TODO
 
